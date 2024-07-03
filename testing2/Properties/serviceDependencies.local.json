@@ -5,9 +5,9 @@
       "secretStore": "LocalSecretsFile",
       "containerName": "testingVers0.0001",
       "containerImage": "testingVers0.0001",
+      "resourceId": null,
       "type": "postgresql.container",
-      "connectionId": "qwe",
-      "dynamicId": null
+      "connectionId": "qwe"
     }
   }
 }
