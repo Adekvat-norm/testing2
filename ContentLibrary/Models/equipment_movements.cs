@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static ContentLibrary.Models.equipments;
+using static Content.Library.Models.equipments;
 
-namespace ContentLibrary.Models
+namespace Content.Library.Models
 {
     public class equipment_movements
     {
@@ -31,6 +31,6 @@ namespace ContentLibrary.Models
 
         public string movement_reason { get; }
 
-        
+
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ContentLibrary.Models
+namespace Content.Library.Models
 {
     public class users
     {
@@ -37,7 +37,7 @@ namespace ContentLibrary.Models
             {
                 error = "Строка пуста или превышает допустимое значение в 100 символов";
             }
-            return(users, error);
+            return (users, error);
         }
     }
 }

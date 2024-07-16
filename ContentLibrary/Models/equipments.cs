@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ContentLibrary.Models
+namespace Content.Library.Models
 {
     public class equipments
     {
@@ -28,21 +28,21 @@ namespace ContentLibrary.Models
 
         public Guid equipment_id { get; }
 
-        public int contract_id {  get; }
+        public int contract_id { get; }
 
-        public int workplace_id {  get; }
+        public int workplace_id { get; }
 
         public string inventory_number { get; }
 
         public string equipment_name { get; }
 
-        public Equipment_status equipment_status {  get; }
+        public Equipment_status equipment_status { get; }
 
         public DateOnly purchase_date { get; }
 
-        public int quantity {  get; }
+        public int quantity { get; }
 
-        public decimal price {  get; }
+        public decimal price { get; }
 
         public static (equipments Equipment, string Error) Create(Guid equipment_id, int contract_id, int workplace_id, string inventory_number, string equipment_name, Equipment_status equipment_status, DateOnly purchase_date, int quantity, decimal price)
         {
@@ -58,7 +58,7 @@ namespace ContentLibrary.Models
             {
                 error = "Строка пуста или превышает допустимое значение в 100 символов";
             }
-            return(equipment, error);
+            return (equipment, error);
         }
     }
 }

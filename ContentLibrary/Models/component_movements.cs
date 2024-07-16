@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ContentLibrary.Models
+namespace Content.Library.Models
 {
     public class component_movements
     {
@@ -32,6 +32,6 @@ namespace ContentLibrary.Models
 
         public string movement_reason { get; }
 
-        public int moved_by {  get; }
+        public int moved_by { get; }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ContentLibrary.Models
+namespace Content.Library.Models
 {
     public class audiences
     {
@@ -29,7 +29,7 @@ namespace ContentLibrary.Models
                 error = "Строка пуста или превышает допустимое значение в 10 символов";
             }
 
-            return(audience, error);
+            return (audience, error);
         }
     }
 }
